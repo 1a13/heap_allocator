@@ -6,4 +6,4 @@ The explicit allocator sees large performance improvements as it utilizes a free
 
 The function validate_heap is used to verify constraints of the heap allocator are met when the test_harness is run, and validate_heap provides a visual output for debugging.
 
-A key assumption of this program is that the user has not overwritten any memory in the heap (as this would overwrite key information in the headers).
+A key assumption of this program is that the user has not overwritten any memory in the heap as this would overwrite key information in the headers.
